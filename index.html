@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now </title>
+    <link rel="icon" href="css/images/icon.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">  <h2 class="header-title">The Spark Foundation</h2></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/">About</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/">Course</a></li> 
+                    <li><a href="https://www.thesparksfoundationsingapore.org/">Blog</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <marquee  width="700%" direction="right" height="100px" class="anim">
+            Donate Now !!! &nbsp &nbsp &nbsp &nbspDonate Now !!! &nbsp &nbsp &nbsp&nbsp   Donate Now !!! &nbsp &nbsp &nbsp&nbsp   Donate Now !!!
+        </marquee>
+        
+        <div class="text-box">
+          
+            <h3>Welcome To The Family! </h3>
+            <h1>WE ARE SO GLAD TO HAVE YOU HERE!</h1>
+            <p>"Let's Come together to make this world better" .</p>
+            <a href="" class="hero-btn"><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HlNLJPCg3yvOqW" async> </script> </form></a>
+        </div>
+
+    </section>
+
+
+ 
+
+
+
+  
+
+
+  
+<!-- ----------------------------------------------------------------Javascript for toogle Menu---------------------------------------------------------------- -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";   
+
+        } 
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+
